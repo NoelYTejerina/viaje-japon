@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japón - Luna de Miel | Guía Definitiva</title>
+    <meta name="description" content="Guía interactiva premium para tu viaje a Japón: rutas, gastronomía, templos y consejos esenciales.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="motif motif-wave"></div>
+    <div class="motif motif-circle"></div>
+
+    <header class="main-header">
+        <div class="header-top">
+            <div class="logo">
+                <span class="jp-text">日本</span>
+                <h1>Guía de Japón</h1>
+            </div>
+            <button id="theme-toggle" class="theme-btn" title="Cambiar a Modo Día/Noche">🌓</button>
+        </div>
+        <div class="nav-horizontal-wrapper">
+            <button class="scroll-arrow left-arrow" id="l1-left">❮</button>
+            <nav class="nav-horizontal" id="nav-l1-container">
+                <ul id="level1-menu">
+                    <!-- Generado dinámicamente -->
+                </ul>
+            </nav>
+            <button class="scroll-arrow right-arrow" id="l1-right">❯</button>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Sidebar de Nivel 2 -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2 id="current-destination">Destino</h2>
+            </div>
+            <div class="nav-vertical-wrapper">
+                <button class="scroll-arrow left-arrow" id="l2-left">❮</button>
+                <nav class="nav-vertical" id="nav-l2-container">
+                    <ul id="level2-menu">
+                        <!-- Generado dinámicamente -->
+                    </ul>
+                </nav>
+                <button class="scroll-arrow right-arrow" id="l2-right">❯</button>
+            </div>
+        </aside>
+
+        <!-- Contenido principal -->
+        <section class="content-area" id="content-area">
+            <div class="hero-section" id="hero-section">
+                <!-- Imagen dinámica y título -->
+                <div class="hero-image-container">
+                    <img id="hero-image" src="" alt="">
+                    <div class="hero-text">
+                        <h1 id="hero-title">Título</h1>
+                        <p id="hero-subtitle">Subtítulo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sections-container" id="sections-container">
+                <!-- Secciones de contenido generadas dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
