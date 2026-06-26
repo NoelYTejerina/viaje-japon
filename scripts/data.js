@@ -54,17 +54,17 @@ window.appData = {
                     {
                         "name": "Okonomiyaki",
                         "description": "La 'pizza' o tortilla japonesa. Una masa cocinada a la plancha rellena de col, carne, marisco y cubierta de una salsa oscura deliciosa, mayonesa japonesa, alga nori en polvo y copos de bonito seco que 'bailan' con el calor.",
-                        "image": "assets/imagen/japon/okonomiyaki.webp"
+                        "image": "assets/imagen/japon/Okonomiyaki.webp"
                     },
                     {
                         "name": "Takoyaki",
                         "description": "Comida callejera de Osaka por excelencia. Pequeñas bolitas redondas de masa muy caliente, rellenas de un trozo de pulpo tierno. Cuidado al morderlas, el interior quema como el magma.",
-                        "image": "assets/imagen/japon/takoyaki.webp"
+                        "image": "assets/imagen/japon/Takoyaki.webp"
                     },
                     {
                         "name": "Tonkatsu",
                         "description": "Chuleta de cerdo gruesa, empanada en panko crujiente y frita. Se acompaña de col cruda rallada finamente y una salsa espesa y dulce. Es contundente, barato y brutalmente rico.",
-                        "image": "assets/imagen/japon/tonkatsu.webp"
+                        "image": "assets/imagen/japon/Tonkatsu.webp"
                     },
                     {
                         "name": "Wagyu / Kobe",
@@ -95,6 +95,18 @@ window.appData = {
                         "name": "Matcha Sweets",
                         "description": "El té verde molido de Japón (Matcha) se usa en miles de postres. Desde helados cremosos, tiramisús, mochis (pastel de arroz pegajoso), hasta galletas KitKat. El sabor es herbal, intenso y ligeramente amargo, lo que equilibra el dulzor.",
                         "image": "assets/imagen/japon/matcha.webp"
+                    },
+                    {
+                        "name": "Sukiyaki",
+                        "description": "Un estofado tradicional que preparáis vosotros mismos en la mesa. Consiste en cocinar carne de ternera en finas lonchas junto a vegetales y tofu en una olla de hierro plana con un caldo dulce de soja. ¡El truco es mojar la carne en huevo crudo batido antes de comerla!",
+                        "image": "assets/imagen/japon/sukiyaki.webp",
+                        "mapLink": ""
+                    },
+                    {
+                        "name": "Fideos Soba",
+                        "description": "Fideos muy finos y oscuros hechos de trigo sarraceno. Son ligeros y muy sanos. Se pueden comer calientes en caldo o, como es muy popular en verano, servidos fríos sobre una esterilla de bambú (Zaru Soba) para mojarlos en una salsa a base de soja fresca (Tsuyu).",
+                        "image": "assets/imagen/japon/soba.webp",
+                        "mapLink": ""
                     }
                 ]
             },
