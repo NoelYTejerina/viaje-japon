@@ -51,6 +51,22 @@ body {
     line-height: 1.6;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-gold);
+}
+
 /* Background motifs & styling */
 .background-overlay {
     position: fixed;
@@ -646,6 +662,11 @@ strong {
         padding: 0.5rem 1rem;
         font-size: 0.85rem;
         scroll-snap-align: start;
+        color: #e2e8f0 !important;
+    }
+    
+    .nav-vertical li:hover, .nav-vertical li.active {
+        color: white !important;
     }
     
     .nav-vertical li.active {
