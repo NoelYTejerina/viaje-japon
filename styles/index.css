@@ -578,7 +578,7 @@ ul.text-list li {
 }
 
 strong {
-    color: white;
+    color: var(--accent-red);
 }
 
 /* Responsive Mobile Optimization */
