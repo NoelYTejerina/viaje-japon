@@ -32,7 +32,7 @@
     --text-secondary: #4A5568;
     --accent-red: #006B8F; /* Azul ola */
     --accent-red-hover: #0081AC;
-    --accent-gold: #D2B48C; /* Color Bambú */
+    --accent-gold: #9C6B30; /* Color Bambú Oscuro (Legible en modo claro) */
     --border-color: rgba(0, 0, 0, 0.1);
     --glass-border: 1px solid rgba(0, 0, 0, 0.05);
 }
