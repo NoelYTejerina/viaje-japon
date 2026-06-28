@@ -7,7 +7,7 @@ test.describe('E2E Navegación y Temas', () => {
 
   test('debe cargar la página de inicio correctamente (Japón)', async ({ page }) => {
     // Comprobar que el título es correcto
-    await expect(page).toHaveTitle(/Japón: La Aventura/);
+    await expect(page).toHaveTitle(/Japón - Luna de Miel/);
     
     // Comprobar que el logo está
     const logoText = page.locator('.jp-text');
