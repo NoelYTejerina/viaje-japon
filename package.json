@@ -1,0 +1,32 @@
+{
+  "name": "japon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test",
+    "dev": "serve -p 3000 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoelYTejerina/viaje-japon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NoelYTejerina/viaje-japon/issues"
+  },
+  "homepage": "https://github.com/NoelYTejerina/viaje-japon#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "jsdom": "^29.1.1",
+    "serve": "^14.2.6",
+    "vitest": "^4.1.9"
+  }
+}
